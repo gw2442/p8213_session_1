@@ -1,0 +1,12 @@
+---
+title: "session_1"
+output: github_document
+date: "2023-01-14"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(readxl)
+medical_2020 = read_excel ("data/Medical 2020.xlsx")
+```
+
